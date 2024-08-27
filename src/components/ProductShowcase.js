@@ -47,12 +47,12 @@ const ProductShowcase = () => {
       <ProductGrid>
         {/* Replace with your product details */}
         <ProductCard>
-          <ProductImage src="https://via.placeholder.com/300x300?text=Product+1" alt="Product 1" />
-          <ProductName>Product 1</ProductName>
+          <ProductImage src="https://images.unsplash.com/photo-1724325444561-fffca0e44bb6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXR0YXJzJTIwYW5kJTIwcGVyZnVtZXxlbnwwfHwwfHx8MA%3D%3D" alt="Product 1" />
+          <ProductName>Ameer ul Oud</ProductName>
         </ProductCard>
         <ProductCard>
-          <ProductImage src="https://via.placeholder.com/300x300?text=Product+2" alt="Product 2" />
-          <ProductName>Product 2</ProductName>
+          <ProductImage src="https://plus.unsplash.com/premium_photo-1691592871274-5d0531e7518b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXR0YXJzJTIwYW5kJTIwcGVyZnVtZXxlbnwwfHwwfHx8MA%3D%3D" alt="Product 2" />
+          <ProductName>Black Musk</ProductName>
         </ProductCard>
         {/* Add more products as needed */}
       </ProductGrid>

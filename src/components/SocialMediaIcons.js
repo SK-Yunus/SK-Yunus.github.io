@@ -23,7 +23,7 @@ const IconLink = styled.a`
 const SocialMediaIcons = () => {
   return (
     <SocialContainer>
-      <IconLink href="https://wa.me/your-whatsapp-number" target="_blank" rel="noopener noreferrer">
+      <IconLink href="https://wa.me/9511722306" target="_blank" rel="noopener noreferrer">
         <FaWhatsapp />
       </IconLink>
       <IconLink href="https://www.instagram.com/your-instagram-handle" target="_blank" rel="noopener noreferrer">
