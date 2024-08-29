@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>Perfume & Attar Store</title>
   <style>
     /* Global Styles */
@@ -46,6 +47,12 @@
     .logo a {
       color: #fff; /* White text for better contrast against the dark background */
       font-size: 1.5em;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      
+      
     }
 
     /* Hero Section */
@@ -62,12 +69,30 @@
       font-size: 3em;
       margin-bottom: 10px;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+      color: #333;
     }
 
     .hero p {
       font-size: 1.2em;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+      color: #555;
     }
+/* Hero Section Social Links */
+.social-links {
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 2.5em;
+  color: #000   ; /* White color for better visibility */
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #f76c6c; /* Change color on hover if you want */
+}
 
     /* Products Section */
     .products {
@@ -149,9 +174,12 @@
 
   <!-- Navigation Bar -->
   <div class="navbar">
-    <div class="logo">
-      <a href="#"><strong>Perfume & Attar Store</strong></a>
-    </div>
+   <div class="logo">
+    <a href="#">
+      <img src="./src/assert/images/hadaf_logoS.png" alt="Hadaf Logo" style="height: 50px; width: auto;">
+      <strong style="margin-left: 50px;">Perfume & Attar Store</strong>
+    </a>
+  </div>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Products</a></li>
@@ -160,17 +188,23 @@
     </ul>
   </div>
 
+  
   <!-- Hero Section -->
-  <div class="hero">
+<div class="hero">
     <h1>Welcome to Hadaf</h1>
     <p>Experience the finest fragrances crafted just for you.</p>
+    <div class="social-links">
+      <a href="https://wa.me/9511722306" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://instagram.com/hadaf.in" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
   </div>
+  
 
   <!-- Products Section -->
   <div class="products">
     <!-- Product Card 1 -->
     <div class="product-card">
-      <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1597092369453-6be6f2f252ee');"></div>
+      <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1646149757906-e6e9e9a7c77f?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
       <div class="product-info">
         <h3>Floral Attar</h3>
         <p>A delightful blend of fresh floral scents.</p>
@@ -181,7 +215,7 @@
     
     <!-- Product Card 2 -->
     <div class="product-card">
-      <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1620764611369-6e1f26c4abf3');"></div>
+      <div class="product-image" style="background-image: url('https://plus.unsplash.com/premium_photo-1675896084251-9f6b085deed1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D');"></div>
       <div class="product-info">
         <h3>Musk Perfume</h3>
         <p>A rich, deep musk fragrance for a lasting impression.</p>
@@ -192,7 +226,7 @@
 
     <!-- Product Card 3 -->
     <div class="product-card">
-      <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1519677100203-a0e668c92439');"></div>
+      <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1557861537-0cb2daf501fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D');"></div>
       <div class="product-info">
         <h3>Oudh Attar</h3>
         <p>An exotic blend of Oudh with a touch of spice.</p>
